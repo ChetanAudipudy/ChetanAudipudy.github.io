@@ -5,6 +5,7 @@ ul {
     overflow: hidden;
     border: 1px solid #cccccc;
     background-color: #ffffff;
+    margin-bottom: 30px;
 }
 
 li {
@@ -18,12 +19,16 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+.Container{
 
+	padding-left: 200px;
+}
 .nameTag{
   background: #4aaaa5;
   color: white;
+  margin-left: 180px;
 }
 .profilePicture{
-	width: 100px;
-	height: 100px;
+
+
 }
