@@ -1,0 +1,29 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nameTag{
+  background: #4aaaa5;
+  color: white;
+}
+.profilePicture{
+	width: 100px;
+	height: 100px;
+}
