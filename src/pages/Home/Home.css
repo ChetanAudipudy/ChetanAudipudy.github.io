@@ -55,3 +55,7 @@
   display: inline-block;
   margin-left: 10%;
 }
+
+@media only screen and (max-width: 436px) {
+  
+}

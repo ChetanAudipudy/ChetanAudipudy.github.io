@@ -33,3 +33,14 @@
   text-decoration: none;
   color: #eded;
 }
+
+/* @media only screen and (min-aspect-ratio: 3/2) {
+  .outerbox > .nav-container .nav-link{
+    font-size: 100px;
+  }
+} */
+/* @media only screen and (max-width: 436px) {
+  .outerbox > .nav-container .nav-link{
+    font-size: 100px;
+  }
+} */

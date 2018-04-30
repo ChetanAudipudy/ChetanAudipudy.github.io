@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Social from "../../components/Social/Social";
+
 import "./Home.css";
 
 export default class Home extends Component {
