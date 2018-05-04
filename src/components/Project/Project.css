@@ -1,0 +1,24 @@
+.card{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.mock-img{
+
+    margin: 10px;
+    width: 40%;     
+}
+
+.desc{
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #EDEDED;
+}
+.tech-used{
+    display: flex;
+    justify-content: center;
+}
