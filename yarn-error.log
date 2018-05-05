@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\Chetan\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js build
+  C:\Program Files\nodejs\node.exe C:\Users\Chetan\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js start
 
 PATH: 
   C:\Users\Chetan\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Chetan\bin;C:\Program Files (x86)\Intel\iCLS Client;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\IntelSGXPSW\bin\x64\Release;C:\Program Files\Intel\IntelSGXPSW\bin\win32\Release;C:\Program Files\Hewlett-Packard\SimplePass;C:\Program Files (x86)\Notepad++;E:\Android\AndroidStudio\bin;E:\Android\sdk\platform-tools;C:\Android;C:\Windows\System32;C:\Program Files\Git\cmd;C:\Program Files\Sublime Text 3;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\nodejs;C:\Program Files\MongoDB\Server\3.6\bin;C:\Program Files\MacType;C:\Users\Chetan\AppData\Local\Programs\Python\Python36-32\Scripts;C:\Users\Chetan\AppData\Local\Programs\Python\Python36-32;C:\Program Files\Java\jdk1.8.0_74\bin;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Users\Chetan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Heroku\bin;C:\Users\Chetan\AppData\Roaming\npm;C:\Program Files\MySQL\MySQL Workbench 6.3 CE;C:\Users\Chetan\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
@@ -15,25 +15,25 @@ Platform:
 
 npm manifest: 
   {
-    "name": "p",
-    "version": "0.1.0",
-    "private": true,
-    "dependencies": {
-      "gh-pages": "^1.1.0",
-      "react": "^16.3.2",
-      "react-dom": "^16.3.2",
-      "react-modal": "^3.4.4",
-      "react-router-dom": "^4.2.2",
-      "react-scripts": "1.1.4"
-    },
-    "scripts": {
-      "start": "react-scripts start",
-      "build": "react-scripts build",
-      "test": "react-scripts test --env=jsdom",
-      "eject": "react-scripts eject",
-      "deploy": "gh-pages -d build --branch master"
+      "name": "p",
+      "version": "0.1.0",
+      "private": true,
+      "dependencies": {
+        "gh-pages": "^1.1.0",
+        "react": "^16.3.2",
+        "react-dom": "^16.3.2",
+        "react-modal": "^3.4.4",
+        "react-router-dom": "^4.2.2",
+        "react-scripts": "1.1.4"
+      },
+      "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject",
+        "deploy": "gh-pages -d build --branch master"
+      }
     }
-  }
 
 yarn manifest: 
   No manifest
@@ -7330,7 +7330,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: C:\WINDOWS\system32\cmd.exe
-  Arguments: /d /s /c react-scripts build
+  Arguments: /d /s /c react-scripts start
   Directory: E:\Bootcamp\Portfolio\ChetanAudipudy.github.io
   Output:
   
