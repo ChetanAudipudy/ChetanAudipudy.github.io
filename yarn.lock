@@ -2063,6 +2063,13 @@ dom-converter@~0.1:
   dependencies:
     utila "~0.3"
 
+<<<<<<< HEAD
+=======
+dom-helpers@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-3.3.1.tgz#fc1a4e15ffdf60ddde03a480a9c0fece821dd4a6"
+
+>>>>>>> 9ed7c2a2e82d39634703ffcbb4e784ab71673733
 dom-serializer@0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/dom-serializer/-/dom-serializer-0.1.0.tgz#073c697546ce0780ce23be4a28e293e40bc30c82"
@@ -4308,7 +4315,11 @@ lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
+<<<<<<< HEAD
 "lodash@>=3.5 <5", lodash@^4.14.0, lodash@^4.15.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.3.0:
+=======
+"lodash@>=3.5 <5", lodash@^4.14.0, lodash@^4.15.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
+>>>>>>> 9ed7c2a2e82d39634703ffcbb4e784ab71673733
   version "4.17.10"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
 
@@ -5062,6 +5073,13 @@ pbkdf2@^3.0.3:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
+<<<<<<< HEAD
+=======
+performance-now@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-0.2.0.tgz#33ef30c5c77d4ea21c5a53869d91b56d8f2555e5"
+
+>>>>>>> 9ed7c2a2e82d39634703ffcbb4e784ab71673733
 performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
@@ -5442,6 +5460,13 @@ progress@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.0.tgz#8a1be366bf8fc23db2bd23f10c6fe920b4389d1f"
 
+<<<<<<< HEAD
+=======
+promise-queue@^2.2.3:
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/promise-queue/-/promise-queue-2.2.5.tgz#2f6f5f7c0f6d08109e967659c79b88a9ed5e93b4"
+
+>>>>>>> 9ed7c2a2e82d39634703ffcbb4e784ab71673733
 promise@8.0.1:
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/promise/-/promise-8.0.1.tgz#e45d68b00a17647b6da711bf85ed6ed47208f450"
@@ -5454,7 +5479,11 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
+<<<<<<< HEAD
 prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.6.0:
+=======
+prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1:
+>>>>>>> 9ed7c2a2e82d39634703ffcbb4e784ab71673733
   version "15.6.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.1.tgz#36644453564255ddda391191fb3a125cbdf654ca"
   dependencies:
@@ -5530,7 +5559,11 @@ querystringify@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.0.0.tgz#fa3ed6e68eb15159457c89b37bc6472833195755"
 
+<<<<<<< HEAD
 raf@3.4.0:
+=======
+raf@3.4.0, raf@^3.1.0:
+>>>>>>> 9ed7c2a2e82d39634703ffcbb4e784ab71673733
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/raf/-/raf-3.4.0.tgz#a28876881b4bc2ca9117d4138163ddb80f781575"
   dependencies:
@@ -5627,7 +5660,19 @@ react-modal@^3.4.4:
     react-lifecycles-compat "^3.0.0"
     warning "^3.0.0"
 
+<<<<<<< HEAD
 react-router-dom@^4.2.2:
+=======
+react-motion@^0.5.0:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/react-motion/-/react-motion-0.5.2.tgz#0dd3a69e411316567927917c6626551ba0607316"
+  dependencies:
+    performance-now "^0.2.0"
+    prop-types "^15.5.8"
+    raf "^3.1.0"
+
+react-router-dom@^4.1.1, react-router-dom@^4.2.2:
+>>>>>>> 9ed7c2a2e82d39634703ffcbb4e784ab71673733
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-4.2.2.tgz#c8a81df3adc58bba8a76782e946cbd4eae649b8d"
   dependencies:
@@ -5638,6 +5683,23 @@ react-router-dom@^4.2.2:
     react-router "^4.2.0"
     warning "^3.0.0"
 
+<<<<<<< HEAD
+=======
+react-router-page-transition@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/react-router-page-transition/-/react-router-page-transition-3.1.0.tgz#a3acab479f277451fac93c3a576ab9945ab891e9"
+  dependencies:
+    promise-queue "^2.2.3"
+
+react-router-transition@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/react-router-transition/-/react-router-transition-1.2.1.tgz#167702d122ca6de339cdd005b95d74707e1c7e77"
+  dependencies:
+    prop-types "^15.5.10"
+    react-motion "^0.5.0"
+    react-router-dom "^4.1.1"
+
+>>>>>>> 9ed7c2a2e82d39634703ffcbb4e784ab71673733
 react-router@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/react-router/-/react-router-4.2.0.tgz#61f7b3e3770daeb24062dae3eedef1b054155986"
@@ -5695,6 +5757,17 @@ react-scripts@1.1.4:
   optionalDependencies:
     fsevents "^1.1.3"
 
+<<<<<<< HEAD
+=======
+react-transition-group@^2.0.0, react-transition-group@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-2.3.1.tgz#31d611b33e143a5e0f2d94c348e026a0f3b474b6"
+  dependencies:
+    dom-helpers "^3.3.1"
+    loose-envify "^1.3.1"
+    prop-types "^15.6.1"
+
+>>>>>>> 9ed7c2a2e82d39634703ffcbb4e784ab71673733
 react@^16.3.2:
   version "16.3.2"
   resolved "https://registry.yarnpkg.com/react/-/react-16.3.2.tgz#fdc8420398533a1e58872f59091b272ce2f91ea9"
@@ -6932,6 +7005,22 @@ vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
 
+<<<<<<< HEAD
+=======
+velocity-animate@^1.4.0:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/velocity-animate/-/velocity-animate-1.5.1.tgz#606837047bab8fbfb59a636d1d82ecc3f7bd71a6"
+
+velocity-react@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/velocity-react/-/velocity-react-1.4.1.tgz#1d0b41859cdf2521c08a8b57f44e93ed2d54b5fc"
+  dependencies:
+    lodash "^4.17.5"
+    prop-types "^15.5.8"
+    react-transition-group "^2.0.0"
+    velocity-animate "^1.4.0"
+
+>>>>>>> 9ed7c2a2e82d39634703ffcbb4e784ab71673733
 vendors@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/vendors/-/vendors-1.0.2.tgz#7fcb5eef9f5623b156bcea89ec37d63676f21801"
