@@ -8,7 +8,11 @@
     "react-dom": "^16.3.2",
     "react-modal": "^3.4.4",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.4"
+    "react-router-page-transition": "^3.1.0",
+    "react-router-transition": "^1.2.1",
+    "react-scripts": "1.1.4",
+    "react-transition-group": "^2.3.1",
+    "velocity-react": "^1.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
