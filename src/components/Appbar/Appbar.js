@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Appbar.css";
 
 const Appbar = () => (
-  <div>
-    <nav className="navbar sticky-top custom-nav">
+  <div className="appbar-container">
+    <nav className="navbar fixed-top custom-nav">
       <Link to="/" className="custom-nav-link">
         Home
       </Link>

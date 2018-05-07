@@ -1,25 +1,10 @@
 [
-<<<<<<< HEAD
-    {
-      "id": 0,
-      "name": "Study Buddy",
-      "desc": "A fully-responsive application designed to help users study. Users can create their own sets of flashcards and quizzes which can be used to practice. Users can make quizzes categorized into different subjects.",
-      "image": "../assets/images/login.png"
-    },
-    {
-      "id": 1,
-      "name": "Study Buddy",
-      "desc": "A fully-responsive application designed to help users study. Users can create their own sets of flashcards and quizzes which can be used to practice. Users can make quizzes categorized into different subjects.",
-      "image": "https://vignette.wikia.nocookie.net/witcher/images/b/b9/Tw3_geralt_journal.png/revision/latest?cb=20170315185100"
-    }
-  ]
-=======
   {
     "id": 0,
     "name": "Study Buddy",
     "desc":
       "A fully-responsive application designed to help users study. Users can create their own sets of flashcards and quizzes which can be used to practice. Users can make quizzes categorized into different subjects.",
-    "image": "../assets/images/login.png",
+    "image": "../assets/images/project/studybuddy.png",
     "icons": "../assets/images/icons/studybuddyset.png"
   },
   {
@@ -27,8 +12,7 @@
     "name": "Study Buddy",
     "desc":
       "A fully-responsive application designed to help users study. Users can create their own sets of flashcards and quizzes which can be used to practice. Users can make quizzes categorized into different subjects.",
-    "image":
-      "https://vignette.wikia.nocookie.net/witcher/images/b/b9/Tw3_geralt_journal.png/revision/latest?cb=20170315185100"
+      "image": "../assets/images/project/studybuddy.png",
+      "icons": "../assets/images/icons/studybuddyset.png"
   }
 ]
->>>>>>> 9ed7c2a2e82d39634703ffcbb4e784ab71673733

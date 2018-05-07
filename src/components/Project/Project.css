@@ -1,28 +1,3 @@
-<<<<<<< HEAD
-.card{
-    margin: 10px;
-    display: flex;
-    flex-direction: row;
-}
-.mock-img{
-
-    margin: 10px;
-    width: 40%;     
-}
-
-.desc{
-    margin: 10px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #EDEDED;
-}
-.tech-used{
-    display: flex;
-    justify-content: center;
-=======
 .portfolio-container {
   width: 100vw;
   max-width: 100vw;
@@ -31,11 +6,22 @@
   justify-content: center;
   align-items: center;
 }
-.card {
+.project-container {
   margin: 25px;
   width: 90%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.project-container-enter{
+  transform: translate(100%);
+}
+.project-container-enter .project-container-active{
+  transform: translate(0%);
+  transition: transform 1000ms ease-in;
+}
+.project-container-exit{
+  transform: translate(0%);
+}
+
 .mock-img {
   width: 100%;
   object-fit: scale-down;
@@ -60,5 +46,4 @@
 }
 .w-g {
   padding: 15px;
->>>>>>> 9ed7c2a2e82d39634703ffcbb4e784ab71673733
 }

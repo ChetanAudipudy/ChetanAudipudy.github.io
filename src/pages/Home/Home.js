@@ -16,7 +16,7 @@ export default class Home extends Component {
               </p>
               <p className="about-text">
                 Let me help you grow your buisness and make your website look
-                good while im at it.{" "}
+                good while I'm at it.{" "}
               </p>
             </div>
             <div className="row social-row">

@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Appbar from "../../components/Appbar/Appbar";
 import Project from "../../components/Project/Project";
 import projects from "../../projects.json";
@@ -14,18 +13,21 @@ class Portfolio extends React.Component {
     return (
       <div>
         <Appbar />
-        <div className="row">
-          {this.state.projects.map(project => {
-            return (
-              <Project
-                key={project.id}
-                name={project.name}
-                image={project.image}
-                desc={project.desc}
-                icons={project.icons}
-              />
-            );
-          })}
+
+        <div className="container">
+          <div className="row">
+            {this.state.projects.map(project => {
+              return (
+                <Project
+                  key={project.id}
+                  name={project.name}
+                  image={project.image}
+                  desc={project.desc}
+                  icons={project.icons}
+                />
+              );
+            })}
+          </div>
         </div>
       </div>
     );
