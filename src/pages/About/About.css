@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
+/* @import url('https://fonts.googleapis.com/css?family=El+Messiri'); */
+@import url('https://fonts.googleapis.com/css?family=Cardo');
+
 
 
 .right-col{
@@ -11,9 +13,10 @@
 .about-container{
     width: 100%;
     padding: 15px;
-    font-size: 18px;
-  /* font-family: "Caviar Dreams", serif; */
-  font-family: 'Arima Madurai', cursive;
+    font-size: 16px;
+  font-family: 'El Messiri', sans-serif;
+  font-family: 'Cardo', serif;
+
 }
 
 .about-left-container{
@@ -24,7 +27,7 @@
 .card{
     margin-top: 30px;
   width: 100%;
-  max-height: 100%;
+  /* max-height: 100%; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 

@@ -1,4 +1,21 @@
 .appbar-container{
     padding-top:70px;
-
+    height: auto;
 }
+@import url(http://allfont.net/allfont.css?fonts=caviar-dreams);
+
+.custom-nav {
+  background: black;
+  height: auto;
+  font-size: 24px;
+  font-family: 'Caviar Dreams', arial;
+  -webkit-box-shadow: 0 4px 10px 0 #000000;
+  box-shadow: 0 4px 10px 0 #000000;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .custom-nav-link {
+  border-left: 1px solid white;
+  padding-left: 10px;
+} */

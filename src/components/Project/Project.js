@@ -4,7 +4,7 @@ import "./Project.css";
 const Project = props => {
   return (
     <div className="portfolio-container">
-      <div className="card mb-3 project-container">
+      <div className="card mb-3">
         <img
           className="card-img-top mock-img"
           src={props.image}
@@ -18,7 +18,7 @@ const Project = props => {
               <img
                 src={props.icons}
                 alt="image of project"
-                style={{ height: 70 }}
+                className="tech-icons"
               />
             </small>
           </p>

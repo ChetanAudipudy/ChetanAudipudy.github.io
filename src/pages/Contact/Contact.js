@@ -3,7 +3,7 @@ import Appbar from "../../components/Appbar/Appbar";
 import "./Contact.css";
 
 const styles = {
-  width: "95%"
+  width: "100%"
 };
 const Contact = () => {
   return (
@@ -17,8 +17,8 @@ const Contact = () => {
                 <div className="get-in-touch">
                   <h3>Get in Touch!</h3>
                   <p>
-                    You can reach me by sending a message on the right, by email
-                    or by phone as listed below.
+                    You can reach me by sending a message, by email or by phone
+                    as listed below.
                   </p>
                 </div>
                 <ul className="list-group list-group-flush">
@@ -47,6 +47,7 @@ const Contact = () => {
                         type="email"
                         className="form-control"
                         id="exampleInputEmail1"
+                        name="email"
                         aria-describedby="emailHelp"
                         placeholder="Type your email here"
                       />
@@ -65,7 +66,7 @@ const Contact = () => {
                     <input
                       type="hidden"
                       name="_next"
-                      value="https://www.chetanaudipudy.com"
+                      value="https://www.chetanaudipudy.com/"
                     />
                     <button type="submit" className="btn btn-dark bg-dark">
                       Submit

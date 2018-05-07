@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   height: 100vh;
+  width: 100%;
   display: flex;
   /* background-image: url("http://www.walldevil.com/wallpapers/a82/minimal-wallpaper-desktop-minimalist-images.jpg"); */
   /* background: #e9e8e4; */
@@ -9,19 +10,23 @@
   background-size: cover;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   overflow: auto;
 }
 
 .about {
-  margin-left: 10%;
-  margin-right: 5%;
-  border-right: 3px solid black;
+  /* margin-left: 10%;
+  margin-right: 5%; */
+  width: 80%;
+  /* border-right: 3px solid black;
   -webkit-border-radius: 0 1px 1px 0;
-  border-radius: 0 1px 1px 0;
+  border-radius: 0 1px 1px 0; */
   height: 75%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
+
 }
 .about-name {
   font-size: 70px;
@@ -36,26 +41,17 @@
   background: black;
   margin: 0;
   padding: 0;
+  width: 100%;
   height: 100vh;
   -webkit-box-shadow: -4px 0 20px -2px #000000;
   box-shadow: -4px 0 20px -2px #000000;
 }
 
-.image {
-  -webkit-box-shadow: 0 0 15px 1px #000000;
-  box-shadow: 0 0 15px 1px #000000;
-}
-
 .social-row {
-  margin: 0;
+  margin: 0px;
   padding: 0;
-  position: absolute;
-  top: 95%;
-  transform: translateY(-100%);
-  display: inline-block;
-  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
-@media only screen and (max-width: 436px) {
-  
-}
