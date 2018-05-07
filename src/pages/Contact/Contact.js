@@ -62,11 +62,11 @@ const Contact = () => {
                         placeholder="Type your message here"
                       />
                     </div>
-                    {/* <input
+                    <input
                       type="hidden"
                       name="_next"
-                      value="https://www.chetanaudipudy.com/contact"
-                    /> */}
+                      value="https://www.chetanaudipudy.com"
+                    />
                     <button type="submit" className="btn btn-dark bg-dark">
                       Submit
                     </button>
