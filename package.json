@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "gh-pages": "^1.1.0",
-    "html5-device-mockups": "^3.2.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-modal": "^3.4.4",
@@ -13,7 +12,6 @@
     "react-router-transition": "^1.2.1",
     "react-scripts": "1.1.4",
     "react-transition-group": "^2.3.1",
-    "velocity-react": "^1.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
