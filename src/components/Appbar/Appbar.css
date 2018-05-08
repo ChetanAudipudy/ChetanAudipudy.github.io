@@ -54,3 +54,7 @@
   font-weight: bold;
   font-size: 22px;
 }
+.brand:hover {
+  margin: 0;
+  padding: 0;
+}

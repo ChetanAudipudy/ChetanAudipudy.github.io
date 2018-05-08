@@ -1,12 +1,15 @@
 import React, { Component } from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Social from "../../components/Social/Social";
+import { SlideDown } from "react-slidedown";
+import "react-slidedown/lib/slidedown.css";
 
 import "./Home.css";
 
 export default class Home extends Component {
   render() {
     return (
+      // <SlideDown>
       <div className="wrapper">
         <div className="row">
           <div className="col-md-8">
@@ -32,6 +35,7 @@ export default class Home extends Component {
           </div>
         </div>
       </div>
+      // </SlideDown>
     );
   }
 }
