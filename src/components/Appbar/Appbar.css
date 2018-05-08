@@ -1,23 +1,56 @@
-.appbar-container{
-    padding-top:70px;
-    height: auto;
+.appbar-container {
+  padding-top: 70px;
+  height: auto;
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center; */
 }
-@import url('http://allfont.net/allfont.css?fonts=caviar-dreams');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+/* @import url('http://allfont.net/allfont.css?fonts=caviar-dreams'); */
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC");
 
-.custom-nav {
+.navbar-toggler {
+  margin: 5px 10px 5px 10px;
+}
+
+.custom-nav-container {
   background: black;
   height: auto;
   font-size: 20px;
-  font-family: 'Caviar Dreams', arial;
-  /* font-family: 'Playfair Display SC', serif; */
+  font-family: "Caviar Dreams", arial;
+  font-family: "Playfair Display SC", serif;
+  font-family: "Exo 2", serif;
+  /* font-weight: 10; */
   -webkit-box-shadow: 0 4px 10px 0 #000000;
   box-shadow: 0 4px 10px 0 #000000;
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* justify-content: center; */
+  align-content: center;
 }
 
-/* .custom-nav-link {
-  border-left: 1px solid white;
-  padding-left: 10px;
-} */
+.custom-nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.custom-nav-link {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+.custom-nav-link:hover {
+  margin: 10px;
+}
+
+.brand {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 22px;
+}

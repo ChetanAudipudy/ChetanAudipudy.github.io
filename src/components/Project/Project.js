@@ -5,13 +5,17 @@ const Project = props => {
   return (
     <div className="portfolio-container">
       <div className="card mb-3">
-        <img
-          className="card-img-top mock-img"
-          src={props.image}
-          alt="Card image cap"
-        />
+        <a href={props.projectLink} target="_blank">
+          <img
+            className="card-img-top mock-img"
+            src={props.image}
+            alt="Card image cap"
+          />{" "}
+        </a>
         <div className="card-body">
-          <h3 className="card-title">{props.name}</h3>
+          <a href={props.projectLink} target="_blank">
+            <h3 className="card-title">{props.name}</h3>
+          </a>
           <p className="card-text">{props.desc}</p>
           <p className="card-text">
             <small className="text-muted">
