@@ -51,6 +51,7 @@ const Appbar = () => (
                 </Link>
               </div>
               <nav class="navbar navbar-dark d-none d-md-block">
+                {/* <nav class="navbar navbar-dark"> */}
                 <span class="custom-nav-link brand">Chetan Audipudy</span>
               </nav>
             </div>
