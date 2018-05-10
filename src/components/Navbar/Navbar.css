@@ -27,10 +27,13 @@
   color: white;
   padding: 5px;
   padding-left: 15px;
-  font-size: 40px;
+  font-size: 30px;
+  font-weight: lighter;
   text-align: left;
   border-left: 1px solid white;
   font-family: "Exo 2", sans-serif;
+  font-family: "Cinzel", serif;
+
 }
 
 .outerbox > .nav-container > a:hover {
