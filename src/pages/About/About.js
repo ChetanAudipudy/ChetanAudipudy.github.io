@@ -36,16 +36,15 @@ const Contact = () => {
                 <div className="card-body">
                   <p>
                     I'm <b> Chetan Audipudy</b>, born on 14th September, 1994
-                    and brought up in the lovely city of Bengaluru, India. I was
-                    exposed to tech at a very young age. Growing up in the era
-                    of the rise of technology in everyday lives, I couldn't stop
-                    (not that I tried to) the urge to explore it. Ever heard of
-                    the saying 'Curiosity killed the cat' ? It actually ends
-                    with 'but satisfaction brought it back.' Apparently,
-                    kid-Chetan lived by these words through and through, without
-                    actually knowing it. Don't get me wrong, I'm still the same
-                    but wiser (not really), probably a tad bit more careful.{" "}
-                    <br /> <br />
+                    and brought up in Bengaluru, India. I was exposed to tech at
+                    a very young age. Growing up in the era of the rise of
+                    technology in everyday lives, I couldn't stop (not that I
+                    tried to) the urge to explore it. Ever heard of the saying
+                    'Curiosity killed the cat' ? It actually ends with 'but
+                    satisfaction brought it back.' Apparently, kid-Chetan lived
+                    by these words through and through, without actually knowing
+                    it. Don't get me wrong, I'm still the same but wiser (not
+                    really), probably a tad bit more careful. <br /> <br />
                     Little did I know, going down the rabbit hole of the tech
                     industry would eventually become my abode. Like most from my
                     generation, the entry point into this field were video

@@ -27,15 +27,18 @@
   justify-content: center;
   align-items: flex-start;
 }
+
 .about-name {
   font-size: 70px;
   font-family: "Abel", sans-serif;
-  line-height: 90px;
+  line-height: 75px;
 }
+
 .about-text {
   font-size: 20px;
   font-family: "Cardo", serif;
 }
+
 .right-container {
   background: black;
   margin: 0;

@@ -2,26 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Appbar.css";
 
-const Appbar = () => (
+const Appbar = () => {
+  return(
   <div className="row">
     <div className="col-md-12">
       <div className="appbar-container">
-        {/* <nav className="navbar fixed-top custom-nav">
-          <Link to="/" className="custom-nav-link">
-            Home
-          </Link>
-          <Link to="/portfolio" className="custom-nav-link">
-            Portfolio
-          </Link>
-          <Link to="/contact" className="custom-nav-link">
-            Contact
-          </Link>
-          <Link to="/about" className="custom-nav-link">
-            About Me
-          </Link>
-        </nav> */}
-
-        <nav className="navbar fixed-top navbar-expand-md navbar-dark custom-nav-container">
+          <nav className="navbar fixed-top navbar-expand-md navbar-dark custom-nav-container">
           <button
             className="navbar-toggler"
             type="button"
@@ -50,9 +36,8 @@ const Appbar = () => (
                   About Me
                 </Link>
               </div>
-              <nav class="navbar navbar-dark d-none d-md-block">
-                {/* <nav class="navbar navbar-dark"> */}
-                <span class="custom-nav-link brand">Chetan Audipudy</span>
+              <nav className="navbar navbar-dark d-none d-md-block">
+                <span className="custom-nav-link brand">Chetan Audipudy</span>
               </nav>
             </div>
           </div>
@@ -60,6 +45,7 @@ const Appbar = () => (
       </div>
     </div>
   </div>
-);
+  )
+};
 
 export default Appbar;

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Social from "../../components/Social/Social";
-import { SlideDown } from "react-slidedown";
+// import { SlideDown } from "react-slidedown";
 import "react-slidedown/lib/slidedown.css";
 
 import "./Home.css";

@@ -45,7 +45,7 @@ const Contact = () => {
                       action="https://formspree.io/chetan.audipudy@gmail.com"
                     >
                       <div className="form-group">
-                        <label for="exampleInputEmail1">
+                        <label>
                           Your Email address
                         </label>
                         <input
