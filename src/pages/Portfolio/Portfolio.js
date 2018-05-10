@@ -28,6 +28,7 @@ class Portfolio extends React.Component {
                     desc={project.desc}
                     icons={project.icons}
                     projectLink={project.projectLink}
+                    githubLink={project.githubLink}
                   />
                 );
               })}

@@ -6,7 +6,8 @@
       "A fully-responsive application designed to help users study. Users can create their own sets of flashcards and quizzes which can be used to practice. Users can make quizzes categorized into different subjects.",
     "image": "../assets/images/project/studybuddy.png",
     "icons": "../assets/images/icons/studybuddyset.png",
-    "projectLink": "https://studdy-buddy-nw.herokuapp.com/"
+    "projectLink": "https://studdy-buddy-nw.herokuapp.com/",
+    "githubLink": "https://github.com/ChetanAudipudy/StudyBuddy"
   },
   {
     "id": 1,
@@ -15,6 +16,7 @@
       "A fully-responsive application designed to help users study. Users can create their own sets of flashcards and quizzes which can be used to practice. Users can make quizzes categorized into different subjects.",
     "image": "../assets/images/project/studybuddy.png",
     "icons": "../assets/images/icons/studybuddyset.png",
-    "projectLink": "https://studdy-buddy-nw.herokuapp.com/"
+    "projectLink": "https://studdy-buddy-nw.herokuapp.com/",
+    "githubLink": "https://github.com/ChetanAudipudy/StudyBuddy"
   }
 ]

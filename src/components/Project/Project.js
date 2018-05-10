@@ -13,9 +13,14 @@ const Project = props => {
           />{" "}
         </a>
         <div className="card-body">
-          <a href={props.projectLink} target="_blank">
-            <h3 className="card-title">{props.name}</h3>
-          </a>
+          <div className="row">
+            <a href={props.projectLink} target="_blank">
+              <h3 className="card-title">{props.name}</h3>
+            </a>{" "}
+            <a href={props.githubLink} target="_blank" className="a-git-icon">
+              <i className="devicon-github-plain-wordmark colored git-icon" />
+            </a>
+          </div>
           <p className="card-text">{props.desc}</p>
           <p className="card-text">
             <small className="text-muted">
