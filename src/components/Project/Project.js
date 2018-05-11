@@ -1,24 +1,27 @@
 import React from "react";
+import Carousel from "../Carousel/Carousel";
 import "./Project.css";
 
 const Project = props => {
   return (
     <div className="portfolio-container">
       <div className="card mb-3">
-        <a href={props.projectLink} target="_blank">
-          <img
-            className="card-img-top mock-img"
-            src={props.image}
-            alt="Card image cap"
-          />{" "}
-        </a>
+        {/* <a href={props.projectLink} target="_blank"> */}
+        {/* <img className="mock-img" src={props.image} alt="Card image cap" />{" "} */}
+        {/* </a> */}
+        <Carousel image={props.image} />
+
         <div className="card-body">
           <div className="row">
             <a href={props.projectLink} target="_blank">
-              <h3 className="card-title">{props.name}</h3>
+              <button className="btn btn-light link-button">
+                <h3 className="card-title">{props.name}</h3>
+              </button>
             </a>{" "}
             <a href={props.githubLink} target="_blank" className="a-git-icon">
-              <i className="devicon-github-plain-wordmark colored git-icon" />
+              <button className="btn btn-sm bg-light link-button">
+                <i className="devicon-github-plain-wordmark colored git-icon" />
+              </button>
             </a>
           </div>
           <p className="card-text">{props.desc}</p>

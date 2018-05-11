@@ -3,20 +3,108 @@
     "id": 0,
     "name": "Study Buddy",
     "desc":
-      "A fully-responsive application designed to help users study. Users can create their own sets of flashcards and quizzes which can be used to practice. Users can make quizzes categorized into different subjects.",
-    "image": "../assets/images/project/studybuddy.png",
+      "[Work in Progress!] A fully-responsive application designed to help users study. Users can create their own sets of flashcards and quizzes which can be used to practice. Users can make quizzes categorized into different subjects.",
+    "image": [
+      "../assets/images/project/studybuddy/login.png",
+      "../assets/images/project/studybuddy/dashboard.png",
+      "../assets/images/project/studybuddy/card.png"
+    ],
     "icons": "../assets/images/icons/studybuddyset.png",
-    "projectLink": "https://studdy-buddy-nw.herokuapp.com/",
-    "githubLink": "https://github.com/ChetanAudipudy/StudyBuddy"
+    "projectLink": "https://github.com/karamui/StudyBuddy2",
+    "githubLink": "https://github.com/karamui/StudyBuddy2"
   },
   {
     "id": 1,
-    "name": "Study Buddy",
+    "name": "Do What",
     "desc":
-      "A fully-responsive application designed to help users study. Users can create their own sets of flashcards and quizzes which can be used to practice. Users can make quizzes categorized into different subjects.",
-    "image": "../assets/images/project/studybuddy.png",
+      "A web-application where users can search for events based on geometric proximity, price and time. Users can also create their own events/",
+    "image": [
+      "../assets/images/project/dowhat/dowhat.png",
+      "../assets/images/project/dowhat/search.png",
+      "../assets/images/project/dowhat/modal.png"
+    ],
     "icons": "../assets/images/icons/studybuddyset.png",
-    "projectLink": "https://studdy-buddy-nw.herokuapp.com/",
-    "githubLink": "https://github.com/ChetanAudipudy/StudyBuddy"
+    "projectLink": "https://chetanaudipudy.github.io/Do-What-/",
+    "githubLink": "https://github.com/ChetanAudipudy/Do-What-"
+  },
+  {
+    "id": 2,
+    "name": "Bamazon",
+    "desc":
+      "Bamazon is a CLI store-front app that shows the process of shopping from a store. It runs on node.js and MYSQL database. There are two main modes in this app - Customer and Manager. In Customer mode, you can make a purchase. In Manager mode, you can add new items, delete items and update current stock.",
+    "image": [
+      "../assets/images/project/bamazon/1.png",
+      "../assets/images/project/bamazon/2.png",
+      "../assets/images/project/bamazon/3.png"
+    ],
+    "icons": "../assets/images/icons/studybuddyset.png",
+    "projectLink": "https://github.com/ChetanAudipudy/bamazon",
+    "githubLink": "https://github.com/ChetanAudipudy/bamazon"
+  },
+  {
+    "id": 3,
+    "name": "Hangman-NodeJS",
+    "desc": "A game of Pokemon Hangman in node using JavaScript contructors.",
+    "image": [
+      "../assets/images/project/hangmanNode/1.png",
+      "../assets/images/project/hangmanNode/2.png",
+      "../assets/images/project/hangmanNode/3.png"
+    ],
+    "icons": "../assets/images/icons/studybuddyset.png",
+    "projectLink": "https://github.com/ChetanAudipudy/hangman-constructor",
+    "githubLink": "https://github.com/ChetanAudipudy/hangman-constructor"
+  },
+  {
+    "id": 4,
+    "name": "Hangman-Web",
+    "desc": "A game of Pokemon Hangman.",
+    "image": [
+      "../assets/images/project/hangman/1.png",
+      "../assets/images/project/hangman/2.png",
+      "../assets/images/project/hangman/3.png"
+    ],
+    "icons": "../assets/images/icons/studybuddyset.png",
+    "projectLink": "https://chetanaudipudy.github.io/Hangman-Game/",
+    "githubLink": "https://github.com/ChetanAudipudy/Hangman-Game/"
+  },
+  {
+    "id": 5,
+    "name": "Liri Bot",
+    "desc":
+      "A node application which can search for a song on spotify, gather information about a movie, and display my last 20 tweets.",
+    "image": [
+      "../assets/images/project/liri/1.png",
+      "../assets/images/project/liri/2.png",
+      "../assets/images/project/liri/3.png"
+    ],
+    "icons": "../assets/images/icons/studybuddyset.png",
+    "projectLink": "https://github.com/ChetanAudipudy/liri-node-app",
+    "githubLink": "https://github.com/ChetanAudipudy/liri-node-app"
+  },
+  {
+    "id": 6,
+    "name": "Space Trivia!",
+    "desc": "Take a timed quiz on Space!",
+    "image": [
+      "../assets/images/project/space/1.png",
+      "../assets/images/project/space/2.png",
+      "../assets/images/project/space/3.png"
+    ],
+    "icons": "../assets/images/icons/studybuddyset.png",
+    "projectLink": "https://chetanaudipudy.github.io/TriviaGame/",
+    "githubLink": "https://github.com/ChetanAudipudy/TriviaGame"
+  },
+  {
+    "id": 7,
+    "name": "Memory Gwent",
+    "desc": "A react memory card game based on characters from The Witcher.",
+    "image": [
+      "../assets/images/project/gwent/MemoryGwent.png",
+      "../assets/images/project/gwent/MemoryGwent.png",
+      "../assets/images/project/gwent/MemoryGwent.png"
+    ],
+    "icons": "../assets/images/icons/studybuddyset.png",
+    "projectLink": "https://chetanaudipudy.github.io/react_click/",
+    "githubLink": "https://github.com/ChetanAudipudy/react_click"
   }
 ]

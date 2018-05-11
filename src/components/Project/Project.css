@@ -24,19 +24,29 @@
   width: 90%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+.link-button {
+  margin-right: 15px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 1px 1px 7px -2px #000000;
+  box-shadow: 1px 1px 7px -2px #000000;
+}
+.link-button h3 {
+  margin: 0;
+  padding: 0;
+}
 .git-icon {
-  margin: 5px;
+  /* margin: 5px;
   margin-left: 10px;
   padding: 5px;
-  padding-left: 10px;
-  font-size: 30px;
-  border-left: 1px solid black;
+  padding-left: 10px; */
+  font-size: 35px;
+  /* border-left: 1px solid black; */
 }
 
 .mock-img {
   width: 100%;
-  object-fit: scale-down;
+  height: 250px;
+  object-fit: cover;
 }
 
 .desc {
