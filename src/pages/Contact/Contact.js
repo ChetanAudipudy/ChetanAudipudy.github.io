@@ -11,6 +11,14 @@ const Contact = () => {
   return (
     <div>
       <Appbar />
+      <a
+        href="https://drive.google.com/file/d/1vJt9_4NYLvcY_CtRQbRvMYuF3no6TOph/view?usp=sharing"
+        target="_blank"
+      >
+        <button type="button" className="btn resume-btn">
+          Resume
+        </button>
+      </a>
       <SlideDown>
         <div className="container">
           <div className="row">
@@ -45,9 +53,7 @@ const Contact = () => {
                       action="https://formspree.io/chetan.audipudy@gmail.com"
                     >
                       <div className="form-group">
-                        <label>
-                          Your Email address
-                        </label>
+                        <label>Your Email address</label>
                         <input
                           type="email"
                           className="form-control"

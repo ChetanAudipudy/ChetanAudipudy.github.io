@@ -21,3 +21,12 @@
   transform: translate3d(100%, 0, 0);
 } */
 
+.resume-btn {
+  position: fixed;
+  background: black;
+  font-family: "Cinzel", serif;
+  color: white;
+  bottom: 5%;
+  right: 5%;
+  z-index: 1;
+}

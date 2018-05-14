@@ -1,16 +1,28 @@
 import React from "react";
-import Carousel from "../Carousel/Carousel";
+import Slider from "react-slick";
+import Icons from "../Icons/Icons";
 import "./Project.css";
 
 const Project = props => {
+  var settings = {
+    dots: true,
+    touchMove: true,
+    infinite: true,
+    speed: 500,
+    autoplay: true,
+    autoplaySpeed: 2500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
   return (
     <div className="portfolio-container">
       <div className="card mb-3">
-        {/* <a href={props.projectLink} target="_blank"> */}
-        {/* <img className="mock-img" src={props.image} alt="Card image cap" />{" "} */}
-        {/* </a> */}
-        <Carousel image={props.image} />
-
+        <Slider {...settings}>
+          <img src={props.image[0]} />
+          <img src={props.image[1]} />
+          <img src={props.image[2]} />
+        </Slider>
+        <br />
         <div className="card-body">
           <div className="row">
             <a href={props.projectLink} target="_blank">
@@ -25,15 +37,7 @@ const Project = props => {
             </a>
           </div>
           <p className="card-text">{props.desc}</p>
-          <p className="card-text">
-            <small className="text-muted">
-              <img
-                src={props.icons}
-                alt="image of project"
-                className="tech-icons"
-              />
-            </small>
-          </p>
+          <Icons icons={props.icons} />
         </div>
       </div>
     </div>

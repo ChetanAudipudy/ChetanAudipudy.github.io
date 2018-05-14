@@ -15,6 +15,14 @@ class Portfolio extends React.Component {
     return (
       <div>
         <Appbar />
+        <a
+          href="https://drive.google.com/file/d/1vJt9_4NYLvcY_CtRQbRvMYuF3no6TOph/view?usp=sharing"
+          target="_blank"
+        >
+          <button type="button" className="btn resume-btn">
+            Resume
+          </button>
+        </a>
 
         <div className="container">
           <SlideDown>
