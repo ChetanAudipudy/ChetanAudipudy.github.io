@@ -5,7 +5,7 @@ const Icons = props => {
   return (
     <div className="tech-icons-container">
       {props.icons.map(i => {
-        return <i className={i} />;
+        return <i key={i} className={i} />;
       })}
     </div>
   );

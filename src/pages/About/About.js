@@ -93,8 +93,8 @@ const Contact = () => {
                     <br />
                     <br />
                     <b>
-                      tldr: I love teaching computers how to be computers in
-                      their own languages.
+                      tldr: I love teaching computers, on how to be computers,
+                      in their own languages.
                     </b>
                     <br />
                     <br />

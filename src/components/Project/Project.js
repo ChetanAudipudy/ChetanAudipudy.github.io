@@ -16,12 +16,16 @@ const Project = props => {
   };
   return (
     <div className="portfolio-container">
-      <div className="card mb-3">
-        <Slider {...settings}>
-          <img src={props.image[0]} />
-          <img src={props.image[1]} />
-          <img src={props.image[2]} />
-        </Slider>
+      <div className="card">
+        <div className="slider-container">
+          <Slider {...settings}>
+            <img src={props.image[0]} />
+
+            <img src={props.image[1]} />
+
+            <img src={props.image[2]} />
+          </Slider>
+        </div>
         <br />
         <div className="card-body">
           <div className="row">

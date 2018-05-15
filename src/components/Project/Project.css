@@ -43,12 +43,6 @@
   /* border-left: 1px solid black; */
 }
 
-.mock-img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-}
-
 .desc {
   margin: 10px;
   width: 200px;
@@ -67,7 +61,14 @@
   /* width: 60%; */
   object-fit: scale-down;
   font-size: 55px;
+  margin: 5px;
+  padding: 5px;
   /* margin-right: 15px; */
+}
+.slider-container {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .slick-arrow {

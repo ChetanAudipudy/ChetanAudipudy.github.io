@@ -38,13 +38,11 @@ const Appbar = () => {
                 </div>
                 <nav className="navbar navbar-dark d-none d-md-block">
                   <a
+                    className="custom-nav-link brand"
                     href="https://drive.google.com/file/d/1vJt9_4NYLvcY_CtRQbRvMYuF3no6TOph/view?usp=sharing"
                     target="_blank"
                   >
-                    {" "}
-                    <span className="custom-nav-link brand">
-                      Chetan Audipudy
-                    </span>{" "}
+                    Chetan Audipudy
                   </a>
                 </nav>
               </div>
