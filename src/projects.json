@@ -3,7 +3,7 @@
     "id": 0,
     "name": "Study Buddy",
     "desc":
-      "[Work in Progress!] A fully-responsive application designed to help users study. Users can create their own sets of flashcards and quizzes which can be used to practice. Users can make quizzes categorized into different subjects.",
+      "A fully-responsive application designed to help users study. Users can create their own sets of flashcards and quizzes which can be used to practice. Users can make quizzes categorized into different subjects.",
     "image": [
       "../assets/images/project/studybuddy/login.png",
       "../assets/images/project/studybuddy/dashboard.png",
@@ -23,8 +23,8 @@
       "tech-icons devicon-sequelize-plain-wordmark colored",
       "tech-icons devicon-webpack-plain-wordmark colored"
     ],
-    "projectLink": "https://github.com/karamui/StudyBuddy2",
-    "githubLink": "https://github.com/karamui/StudyBuddy2"
+    "projectLink": "https://study-buddy-nw.herokuapp.com/",
+    "githubLink": "https://github.com/ChetanAudipudy/StudyBuddy"
   },
   {
     "id": 1,
