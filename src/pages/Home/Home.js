@@ -16,7 +16,7 @@ export default class Home extends Component {
             <div className="left-container">
               <div className="about">
                 <h4 className="about-name">
-                  Hello there!<br /> My name is Chetan<br /> I'm a web developer
+                  Hello there!<br /> My name is Chetan<br /> I'm a web & app developer
                 </h4>
                 <p className="about-text">
                   Let me help you grow your buisness and make your website look
