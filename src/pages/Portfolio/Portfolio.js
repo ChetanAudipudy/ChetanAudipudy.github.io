@@ -28,6 +28,7 @@ class Portfolio extends React.Component {
           <SlideDown>
             <div className="row">
               {this.state.projects.map(project => {
+                {console.log("project " + project )}
                 return (
                   <Project
                     key={project.id}
