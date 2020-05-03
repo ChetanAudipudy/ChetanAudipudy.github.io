@@ -1,0 +1,68 @@
+// COLOR VARIABLES
+$color-primary-light: #3E4A56;
+$color-primary: #101d2c;
+
+$color-secondary: #B89452;
+
+$color-grey-light-1: #f9f7f6;
+$color-grey-light-2: #aaa;
+
+$color-grey-dark-1: #54483A;
+$color-grey-dark-2: #6D5D4B;
+
+$color-brown: #31281D;
+$color-purple: #134074;
+
+// FONT VARIABLES
+$font-primary: 'Quicksand', sans-serif;
+$font-display: 'Lora', serif;
+
+// RESPONSIVE BREAKPOINTS
+$bp-largest: 75em;   // 1200px
+$bp-large: 62.5em;   // 1000px
+$bp-medium: 50em;    // 800px;
+$bp-small: 37.5em;    // 600px;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+}
+
+body {
+  font-family: $font-primary;
+  font-weight: 300;
+  line-height: 1.6;
+  background-color: $color-grey-light-1;
+}
+
+.app-container {
+  display: grid;
+  grid-template-columns: [full-start] 1fr [center-start] repeat(6, [col-start] 1fr [col-end]) [center-end] 1fr [full-end];
+  grid-template-rows: 100vh 5rem min-content min-content min-content min-content;
+}
+
+.h1-4 {
+  background-color: burlywood;
+  grid-column: full-start / full-end;
+  height: 100vh;  
+}
+.h1-5 {
+  background-color: green;  
+}
+.h1-6 {
+  background-color: greenyellow;  
+}
+.h1-7 {
+  background-color: rebeccapurple;  
+}
+.h1-8 {
+  background-color: orange;  
+}
