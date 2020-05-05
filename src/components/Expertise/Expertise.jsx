@@ -6,7 +6,7 @@ import { AiOutlineConsoleSql } from "react-icons/ai";
 
 
 const Expertise = () => (
-    <div className="wow expertise">
+    <div className="wow expertise" id="skillset">
         <h2 className="wow expertise__h2">Skillset</h2>
         <div className="expertise__tech">
             <div className="expertise__tech__lang tech_list">

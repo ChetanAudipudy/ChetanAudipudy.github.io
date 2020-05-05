@@ -12,6 +12,7 @@ $color-grey-dark-2: #6D5D4B;
 
 $color-brown: #31281D;
 $color-purple: #134074;
+$color-light: #0D103D;
 
 // FONT VARIABLES
 $font-primary: 'Quicksand', sans-serif;
@@ -49,11 +50,7 @@ body {
   grid-template-rows: 100vh 5rem min-content min-content min-content min-content;
 }
 
-.h1-4 {
-  background-color: burlywood;
-  grid-column: full-start / full-end;
-  height: 100vh;  
-}
+
 .h1-5 {
   background-color: green;  
 }

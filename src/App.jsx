@@ -5,7 +5,11 @@ import WOW from 'wow.js';
 //Components
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
-import Expertise from './components/Expertise/Expertise';
+import Expertise from './components/Expertise/Expertise'
+import Portfolio from './components/Portfolio/Portfolio'
+import Work from './components/Work/Work';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -23,11 +27,10 @@ function App() {
       <Hero />
       <Header />
       <Expertise />
-      <h1 className="h1-4">4</h1>
-      <h1 className="h1-5">5</h1>
-      <h1 className="h1-6">6</h1>
-      <h1 className="h1-7">7</h1>
-      <h1 className="h1-8">8</h1>
+      <Portfolio />
+      <Work />
+      <Contact />
+      <Footer />
     </div>
   );
 }

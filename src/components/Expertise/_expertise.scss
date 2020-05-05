@@ -4,6 +4,7 @@
   grid-template-rows: min-content max-content;
   row-gap: 2rem;
   padding: 2rem;
+  margin: 2rem;
   transition: all .2s;
 
   &__h2 {
@@ -47,11 +48,11 @@
     align-items: center;
     margin-right: 1rem;
     & > p {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         margin: 2rem 1rem;
     }
 
-    animation: moveInBottom 1s  1s  forwards;
+    animation: moveInBottom 1s 1s forwards;
 
 }
 
