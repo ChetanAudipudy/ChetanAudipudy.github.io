@@ -21,7 +21,7 @@ const Header = () => {
                     to="portfolio" 
                     spy={true} 
                     smooth={true}
-                    offset={-20}
+                    offset={-50}
                     duration={500}>
                     <li className="header__item">
                     <p href="#portfolio" className="header__link">
