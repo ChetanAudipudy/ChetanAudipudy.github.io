@@ -18,10 +18,10 @@ const Hero = () => (
             duration={500}
             className="arrow">
         </Link>
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
     </div>
-    <div id="stars"></div>
-    <div id="stars2"></div>
-    <div id="stars3"></div>
     </React.Fragment>
 )
 
