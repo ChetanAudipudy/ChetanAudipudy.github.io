@@ -17,6 +17,19 @@
       justify-content: end;
       align-items: center;
 
+      @media only screen and (max-width: $bp-medium) {
+        justify-content: center;
+        column-gap: 5rem;
+      }
+
+      @media only screen and (max-width: $bp-small) {
+        column-gap: 3rem;
+      }
+      
+      @media only screen and (max-width: $bp-smallest) {
+        column-gap: 1rem;
+      }
+      
     & .nav-active {
       border-bottom: 1px solid #000000;
     }
@@ -49,9 +62,7 @@
     }
   }
 
-  &__link:link,
-  &__link:visited {
-
+  &__link{
       font-size: 1.3rem;
       font-weight: 400;
       color: black;
@@ -61,5 +72,6 @@
       text-align: center;
       display: block;
       transition: all .2s;
+      cursor: pointer;
   }
 }

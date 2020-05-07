@@ -10,6 +10,14 @@
     background-size: cover;
     background-position: center;
     grid-column: full-start / full-end;
+    padding: 3rem;
+    margin: 4rem 0;
+    transition: all .2s;
+
+    @media only screen and (max-width: $bp-smallest) {
+        padding: .5rem .2rem;
+        margin: 2rem 0;
+    }
 
     &__container {
         margin: 2rem;
@@ -17,8 +25,15 @@
         display: grid;
         grid-template-rows: repeat(auto-fit, max-content);
         grid-template-columns: repeat(auto-fit, minmax(max-content, 1fr));
+        justify-content: center;
         row-gap: 3.5rem;
 
+        @media only screen and (max-width: $bp-smallest) {
+            row-gap: 3rem;
+            margin: 1rem;
+            padding: 1rem;
+        }
+        
     }
     
     &__h2 {
@@ -29,25 +44,53 @@
         opacity: 0;
         animation: moveInTop 1s .3s ease-out forwards;
         color: #ffffff;
+
+        @media only screen and (max-width: $bp-smallest) {
+            font-size: 3.5rem;
+            padding: .5rem 0;
+        }
     }   
 }
 
 .card {
-    background-image: linear-gradient(105deg, 
-                                    rgba(#fff, .8) 0%,
-                                    rgba(#fff, .8) 50%,
-                                    transparent 50%) ,
-                            url(../../assets/portfolio-bg.jpg);
-    background-size: 100%;
-    border-radius: 3px;
-    box-shadow: 0 1.5rem 4rem rgba(#000000, .2);
-    background-repeat: no-repeat;
+    max-width: 80vw;
+    min-height: 25rem;
 
+    // background-image: linear-gradient(105deg, rgba(#fff, .9) 0%, rgba(#fff, .9) 50%, transparent 50%), url(../../assets/portfolio-bg.jpg);
+    
+
+    // @media only screen and (max-width: $bp-medium) {
+    //     background-image: linear-gradient(105deg, 
+    //                                 rgba(#fff, .9) 0%,
+    //                                 rgba(#fff, .9) 60%,
+    //                                 transparent 50%) ,
+    //                         url(../../assets/portfolio-bg.jpg);
+    // }
+    // @media only screen and (max-width: $bp-small) {
+    //     background-image: linear-gradient(105deg, 
+    //                                 rgba(#fff, .9) 0%,
+    //                                 rgba(#fff, .9) 70%,
+    //                                 transparent 50%) ,
+    //                         url(../../assets/portfolio-bg.jpg);
+    // }
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60% 30%;
+
+    @media only screen and (max-width: $bp-large) {
+        background-position: 80% 20%;
+    }
+
+    border-radius: 5px;
+    box-shadow: 0 1.5rem 4rem rgba(#000000, .2);
     display: grid;
     grid-template-rows: repeat(3, max-content);
     grid-template-columns: repeat(auto-fit, minmax(max-content, 1fr));
 
     opacity: 0;
+    transition: all .5s;
+
     animation: fadeIn 1s ease-out .3s forwards;
 
 
@@ -55,6 +98,22 @@
         width: 45%;
         padding: 1.5rem;
         margin: 1rem;
+        
+        &__link:link,
+        &__link:visited{
+        text-decoration: none;
+        font-weight: 400;
+        color: black;
+        }
+
+        @media only screen and (max-width: $bp-medium) {
+            padding: 1rem;
+            width: 55%;
+        }
+        @media only screen and (max-width: $bp-small) {
+            padding: 1rem;
+            width: 65%;
+        }
     }
 
     &__h4 {
@@ -66,6 +125,10 @@
 
     &__desc {
         font-size: 1.5rem;
+    }
+
+    &:hover {
+        transform: scale(1.04);
     }
 
 }

@@ -1,4 +1,40 @@
 .footer {
     grid-column: full-start / full-end;
-    height: 40vh;
+    background-color:$color-light;
+    background-image: linear-gradient(to right bottom, rgba(#6D7899, .4), rgba( #949EB6, .4));
+    &__container {
+        margin: 2rem;
+        padding: 2rem;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        @media only screen and (max-width: $bp-smallest) {
+            margin: 1rem;
+            padding: 1rem;
+        }
+    }
+
+    &__liner {
+        color: #ffffff;
+        font-weight: 300;
+        font-size: 2rem;
+
+        @media only screen and (max-width: $bp-medium) {
+            font-size: 1.5rem;
+        }
+        @media only screen and (max-width: $bp-smallest) {
+            font-size: 1.1rem;
+        }
+    }
+
+    &__copy {
+        color: #ffffff;
+        font-weight: 300;
+        font-size: 1.2rem;
+        text-align: center;
+
+        @media only screen and (max-width: $bp-medium) {
+            font-size: .8rem;
+        }
+    }
 }

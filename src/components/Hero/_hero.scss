@@ -11,7 +11,6 @@
         transition: moveInBottom .2s;
 
         display: grid;
-        // grid-template-columns: minmax(min-content, max-content);
         grid-template-rows: repeat(4, max-content);
         grid-template-columns: repeat(auto-fit, minmax(max-content, 1fr));
         justify-content: center;
@@ -27,6 +26,17 @@
         animation: fadeIn 1s ease-out .8s forwards;
         font-size: 7rem;
         // letter-spacing: .2rem;
+
+        @media only screen and (max-width: $bp-medium) {
+          font-size: 6rem;
+        }
+
+        @media only screen and (max-width: $bp-small) {
+          font-size: 5rem;
+        }
+        @media only screen and (max-width: $bp-smallest) {
+          font-size: 4.5rem;
+        }
     }
     
     &__h3 {
@@ -51,6 +61,10 @@
         animation:         increaseWidth 1s;
         animation-delay: .8s;
         animation-fill-mode: forwards;
+
+        @media only screen and (max-width: $bp-small) {
+          margin-top: .5rem;
+        }
     }
 }
 

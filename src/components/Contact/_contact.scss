@@ -1,4 +1,102 @@
 .contact {
-    grid-column: full-start / full-end;
-    height: 50vh;
+    grid-column: center-start / center-end;
+    transition: all .2s;
+
+    &__h2 {
+        font-family: $font-primary;
+        font-weight: 300;
+        font-size: 5rem;
+        text-align: center;
+        opacity: 0;
+        animation: moveInTop 1s .3s ease-out forwards;
+        color: $color-purple;
+
+        @media only screen and (max-width: $bp-smallest) {
+            font-size: 3rem;
+        }
+    }
+
+    &__container {
+        @supports(display: grid) {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+            grid-gap: 4rem;
+            align-items: center;
+            justify-items: center;
+            margin: 6rem 0;
+        }
+        opacity: 0;
+        animation: fadeIn 1s ease-out .3s forwards;
+
+        @media only screen and (max-width: $bp-largest) {
+            margin: 4.5rem 0;
+        }
+
+        @media only screen and (max-width: $bp-medium) {
+            margin: 3.5rem 0;
+        }
+
+        @media only screen and (max-width: $bp-smallest) {
+            margin: 3rem 0;
+        }
+    }
+    &__img {
+        width: 55%;
+        border-radius: 100%;
+        border: 1rem solid #ffffff;
+        box-shadow: 0px 3px 15px rgba(0,0,0,0.3);
+        transition: all .5s;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+
+    &__h4 {
+        font-size: 3.5rem;
+        font-weight: 400;
+
+        @media only screen and (max-width: $bp-largest) {
+            font-size: 3rem;
+        }
+        @media only screen and (max-width: $bp-medium) {
+            font-size: 2.5rem;
+        }
+        @media only screen and (max-width: $bp-smallest) {
+            font-size: 2rem;
+        }
+    }
+
+    &__items {
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        padding: .5rem 0;
+
+        &__container {
+            .react-icons {
+                margin: 0 .8rem;
+
+                @media only screen and (max-width: $bp-medium) {
+                    margin: 0 .8rem;
+                }
+
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        @media only screen and (max-width: $bp-medium) {
+            font-size: 1.8rem;
+        }
+        @media only screen and (max-width: $bp-smallest) {
+            font-size: 1.5rem;
+        }
+    }
+
+    &__link:link,
+    &__link:visited{
+        text-decoration: none;
+        color: black;
+    }
 }

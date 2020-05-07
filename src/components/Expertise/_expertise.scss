@@ -6,6 +6,18 @@
   padding: 2rem;
   margin: 2rem;
   transition: all .2s;
+  
+  @media only screen and (max-width: $bp-medium) {
+    row-gap: 1.5rem;
+    padding: 1.2rem;
+    margin: 1.2rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    row-gap: 1rem;
+    padding: .5rem;
+    margin: .5rem;
+  }
 
   &__h2 {
     font-family: $font-primary;
@@ -14,12 +26,16 @@
     text-align: center;
     animation: moveInTop 1s ease-out;
     color: $color-purple;
+
+    @media only screen and (max-width: $bp-smallest) {
+      font-size: 3.5rem;
+    }
   }
 
   
   &__tech {
     display: grid;
-    gap: 2rem;
+    row-gap: 1rem;
     & h3 {
         font-family: $font-primary;
         font-weight: 300;
@@ -28,17 +44,21 @@
         animation: fadeIn 1s ease-out .5s forwards;
         color: $color-purple;
 
+        @media only screen and (max-width: $bp-smallest) {
+          font-size: 2.2rem;
+        }
     }
   }
 
   .tech_list {
     display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-        column-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+    column-gap: 1rem;
 
-        & > h3 {
-            grid-column: 1 / -1;
-        }
+    & > h3 {
+        grid-column: 1 / -1;
+        
+    }
   }
 }
 
@@ -46,10 +66,19 @@
     opacity: 0;
     display: flex;
     align-items: center;
-    margin-right: 1rem;
     & > p {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         margin: 2rem 1rem;
+
+        @media only screen and (max-width: $bp-large) {
+          margin: 1.5rem .5rem;
+        }
+        @media only screen and (max-width: $bp-medium) {
+          margin: 1.5rem .5rem;
+        }
+        @media only screen and (max-width: $bp-smallest) {
+          font-size: 1.4rem;
+        }
     }
 
     animation: moveInBottom 1s 1s forwards;
@@ -57,8 +86,10 @@
 }
 
 .react-icons {
-    
     font-size: 2.5rem;
     vertical-align: center;
     
+    &:hover{
+      transform: scale(1.1);
+  }
 }

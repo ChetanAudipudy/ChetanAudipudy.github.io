@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Dbrae",
+        "href": "http://www.dbrae.com/",
+        "desc": "Personal Photography Gallery. A few photographs taken during my travels. Built with React, Node and Express",
+        "img": "./assets/dbrae.jpg"
+    },
+    {
+        "title": "StudyBuddy",
+        "href": "https://study-buddy-nw.herokuapp.com/",
+        "desc": "A fully-responsive application designed to help users study. Users can create their own sets of flashcards and quizzes which can be used to practice. Users can make quizzes categorized into different subjects.",
+        "img": "./assets/studybuddy.jpg"
+    }
+]

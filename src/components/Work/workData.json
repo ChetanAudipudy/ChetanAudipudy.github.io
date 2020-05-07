@@ -1,0 +1,20 @@
+[
+    {
+        "company": "CVS Health",
+        "title": "Application Developer",
+        "duration": "July 2018 - Present",
+        "desc": "Technical lead for various cross-departmental projects which involved estimation, design and development using Java and JavaScript with frameworks like Angular and TCF."
+    },
+    {
+        "company": "Chess Scholars",
+        "title": "Teacher",
+        "duration": "April 2018 - June 2018",
+        "desc": "Taugh intermediate/advanced Chess. Conducted tournaments and various events."
+    },
+    {
+        "company": "VRX Networks",
+        "title": "Virtual Reality Systems Admin",
+        "duration": "Sept 2017 - Feb 2018",
+        "desc": "Maintained and Demonstrated Virtual Reality systems to the public."
+    }
+]

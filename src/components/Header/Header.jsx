@@ -12,9 +12,9 @@ const Header = () => {
                     offset={-70}
                     duration={500}>
                     <li className="header__item">
-                    <a href="#skillset" className="header__link">
+                    <p href="#skillset" className="header__link">
                     Skillset
-                    </a>
+                    </p>
                     </li>
                 </Link>
                 <Link 
@@ -24,9 +24,9 @@ const Header = () => {
                     offset={-20}
                     duration={500}>
                     <li className="header__item">
-                    <a href="#portfolio" className="header__link">
+                    <p href="#portfolio" className="header__link">
                     Portfolio
-                    </a>
+                    </p>
                     </li>
                 </Link>
                 <Link 
@@ -36,9 +36,9 @@ const Header = () => {
                     offset={-70}
                     duration={500}>
                     <li className="header__item">
-                    <a href="#work" className="header__link">
+                    <p href="#work" className="header__link">
                     Work
-                    </a>
+                    </p>
                     </li>
                 </Link>
                 <Link 
@@ -48,9 +48,9 @@ const Header = () => {
                     offset={-70}
                     duration={500}>
                     <li className="header__item">
-                    <a href="#contact" className="header__link">
+                    <p href="#contact" className="header__link">
                     Contact
-                    </a>
+                    </p>
                     </li>
                 </Link>
             </ul>

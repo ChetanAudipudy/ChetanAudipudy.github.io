@@ -21,16 +21,10 @@ $font-display: 'Lora', serif;
 // RESPONSIVE BREAKPOINTS
 $bp-largest: 75em;   // 1200px
 $bp-large: 62.5em;   // 1000px
-$bp-medium: 50em;    // 800px;
-$bp-small: 37.5em;    // 600px;
-
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
+$bp-medium: 50em;    // 800px
+$bp-med-700: 43.75;   // 700px
+$bp-small: 37.5em;    // 600px
+$bp-smallest: 26.25em;    // 420px
 
 html {
   box-sizing: border-box;
@@ -42,24 +36,19 @@ body {
   font-weight: 300;
   line-height: 1.6;
   background-color: $color-grey-light-1;
+  text-rendering: optimizeLegibility; 
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 .app-container {
   display: grid;
   grid-template-columns: [full-start] 1fr [center-start] repeat(6, [col-start] 1fr [col-end]) [center-end] 1fr [full-end];
   grid-template-rows: 100vh 5rem min-content min-content min-content min-content;
-}
-
-
-.h1-5 {
-  background-color: green;  
-}
-.h1-6 {
-  background-color: greenyellow;  
-}
-.h1-7 {
-  background-color: rebeccapurple;  
-}
-.h1-8 {
-  background-color: orange;  
 }
