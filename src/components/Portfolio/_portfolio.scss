@@ -15,6 +15,11 @@
     transition: all .2s;
 
     @media only screen and (max-width: $bp-smallest) {
+        padding: 2.5rem;
+        margin: 3rem 0;
+    }
+
+    @media only screen and (max-width: $bp-smallest) {
         padding: .5rem .2rem;
         margin: 2rem 0;
     }
