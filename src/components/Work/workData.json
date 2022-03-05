@@ -1,8 +1,14 @@
 [
     {
+        "company": "JP Morgan Chase",
+        "title": "Software Engineer",
+        "duration": "Sep 2021 - Present",
+        "desc": "Lead Developer, working on microservices using Java, SpringBoot and Kafka. AWS Cohort Lead."
+    },
+    {
         "company": "CVS Health",
-        "title": "Application Developer",
-        "duration": "July 2018 - Present",
+        "title": "Software Developer",
+        "duration": "July 2018 - Sep 2021",
         "desc": "Technical lead for various cross-departmental projects which involved estimation, design and development using Java and JavaScript with frameworks like Angular and TCF."
     },
     {
