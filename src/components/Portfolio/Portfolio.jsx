@@ -5,8 +5,8 @@ import useWindowDimensions from "./windowDimension";
 const Portfolio = () => {
     return (
         <div className="portfolio" id="portfolio">
-        <h2 className="portfolio__h2 wow">Portfolio</h2>
-            <div className="portfolio__container wow">
+        <h2 className="portfolio__h2">Portfolio</h2>
+            <div className="portfolio__container">
                 {portfolioData.map((data, index) => (
                     <Card key={`${data}${index}`} title={data.title} href={data.href} desc={data.desc} img={data.img}/>
                 ))}
@@ -25,7 +25,7 @@ const Card = (props) => {
 
     return (
         <a href={props.href} className="card__info__link" target="_blank" rel="noopener noreferrer">
-        <div className="card wow" style={style}>
+        <div className="card" style={style}>
             <div className="card__info">
                 <h4 className="card__h4">{props.title}</h4>
                 <p className="card__desc">{props.desc}</p>

@@ -6,45 +6,45 @@ import { SiApachekafka, SiSpring } from "react-icons/si";
 
 
 const Expertise = () => (
-    <div className="wow expertise" id="skillset">
-        <h2 className="wow expertise__h2">Skillset</h2>
+    <div className=" expertise" id="skillset">
+        <h2 className=" expertise__h2">Skillset</h2>
         <div className="expertise__tech">
-        <h3 className="wow">Frontend</h3>
+        <h3 className="">Frontend</h3>
             <div className="tech_list">
-                <div className="dev-icon__container wow"><DiReact className="react-icons"/><p className="wow"> React</p></div>
-                <div className="dev-icon__container wow"><DiReact className="react-icons"/><p className="wow"> Redux</p></div>
-                <div className="dev-icon__container wow"><DiAngularSimple className="react-icons"/><p className="wow">Angular</p></div>
-                <div className="dev-icon__container wow"><DiJqueryLogo className="react-icons"/><p className="wow"> JQuery</p></div>
+                <div className="dev-icon__container "><DiReact className="react-icons"/><p className=""> React</p></div>
+                <div className="dev-icon__container "><DiReact className="react-icons"/><p className=""> Redux</p></div>
+                <div className="dev-icon__container "><DiAngularSimple className="react-icons"/><p className="">Angular</p></div>
+                <div className="dev-icon__container "><DiJqueryLogo className="react-icons"/><p className=""> JQuery</p></div>
 
 
-                <div className="dev-icon__container wow"><DiHtml5 className="react-icons"/><p className="wow"> HTML5</p></div>
-                <div className="dev-icon__container wow"><DiCss3 className="react-icons"/><p className="wow"> CSS</p></div>
-                <div className="dev-icon__container wow"><AiOutlineConsoleSql className="react-icons"/><p className="wow"> SQL</p></div>
+                <div className="dev-icon__container "><DiHtml5 className="react-icons"/><p className=""> HTML5</p></div>
+                <div className="dev-icon__container "><DiCss3 className="react-icons"/><p className=""> CSS</p></div>
+                <div className="dev-icon__container "><AiOutlineConsoleSql className="react-icons"/><p className=""> SQL</p></div>
             </div>
-        <h3 className="wow">Backend</h3>
+        <h3 className="">Backend</h3>
             <div className="tech_list">
-                <div className="dev-icon__container wow"><DiJavascript1 className="react-icons"/><p className="wow"> Javascript</p></div>
-                <div className="dev-icon__container wow"><DiJava className="react-icons"/><p className="wow"> Java</p></div>
-                <div className="dev-icon__container wow"><DiNodejsSmall className="react-icons"/><p className="wow"> NodeJS</p></div>
-                <div className="dev-icon__container wow"><SiApachekafka className="react-icons"/><p className="wow"> Apache Kafka</p></div>
-                <div className="dev-icon__container wow"><SiSpring className="react-icons"/><p className="wow"> Spring Boot</p></div>
-                <div className="dev-icon__container wow"><p>ExpressJS</p></div>
-                <div className="dev-icon__container wow"><GrGraphQl className="react-icons"/><p className="wow"> GraphQL</p></div>
+                <div className="dev-icon__container "><DiJavascript1 className="react-icons"/><p className=""> Javascript</p></div>
+                <div className="dev-icon__container "><DiJava className="react-icons"/><p className=""> Java</p></div>
+                <div className="dev-icon__container "><DiNodejsSmall className="react-icons"/><p className=""> NodeJS</p></div>
+                <div className="dev-icon__container "><SiApachekafka className="react-icons"/><p className=""> Apache Kafka</p></div>
+                <div className="dev-icon__container "><SiSpring className="react-icons"/><p className=""> Spring Boot</p></div>
+                <div className="dev-icon__container "><p>ExpressJS</p></div>
+                <div className="dev-icon__container "><GrGraphQl className="react-icons"/><p className=""> GraphQL</p></div>
             </div>
-        <h3 className="wow">Databases</h3>
+        <h3 className="">Databases</h3>
             <div className="tech_list">
-                <div className="dev-icon__container wow"><DiMongodb className="react-icons"/><p className="wow"> MongoDB</p></div>
-                <div className="dev-icon__container wow"><DiMysql className="react-icons"/><p className="wow"> MySQL</p></div>
-                <div className="dev-icon__container wow"><DiPostgresql className="react-icons"/><p className="wow"> PostgreSQL</p></div>
-                <div className="dev-icon__container wow"><DiFirebase className="react-icons"/><p className="wow"> Firebase</p></div>
+                <div className="dev-icon__container "><DiMongodb className="react-icons"/><p className=""> MongoDB</p></div>
+                <div className="dev-icon__container "><DiMysql className="react-icons"/><p className=""> MySQL</p></div>
+                <div className="dev-icon__container "><DiPostgresql className="react-icons"/><p className=""> PostgreSQL</p></div>
+                <div className="dev-icon__container "><DiFirebase className="react-icons"/><p className=""> Firebase</p></div>
             </div>
-        <h3 className="wow">DevOps</h3>
+        <h3 className="">DevOps</h3>
             <div className="tech_list">
-                <div className="dev-icon__container wow"><DiGit className="react-icons"/><p className="wow"> Git</p></div>
-                <div className="dev-icon__container wow"><p>Cloud Foundry</p></div>
-                <div className="dev-icon__container wow"><p>Webpack</p></div>
-                <div className="dev-icon__container wow"><DiJenkins className="react-icons"/><p className="wow"> Jenkins</p></div>
-                <div className="dev-icon__container wow"><DiDocker className="react-icons"/><p className="wow"> Docker</p></div>
+                <div className="dev-icon__container "><DiGit className="react-icons"/><p className=""> Git</p></div>
+                <div className="dev-icon__container "><p>Cloud Foundry</p></div>
+                <div className="dev-icon__container "><p>Webpack</p></div>
+                <div className="dev-icon__container "><DiJenkins className="react-icons"/><p className=""> Jenkins</p></div>
+                <div className="dev-icon__container "><DiDocker className="react-icons"/><p className=""> Docker</p></div>
             </div>
         </div>
     </div>

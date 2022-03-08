@@ -3,8 +3,8 @@ import { GrGithub, GrMail, GrLinkedinOption } from "react-icons/gr";
 
 const Contact = () => (
     <div className="contact" id="contact">
-    <h2 className="contact__h2 wow">Contact</h2>
-        <div className="contact__container wow">
+    <h2 className="contact__h2">Contact</h2>
+        <div className="contact__container">
             <img src="./dp.jpg" alt="Profile" className="contact__img" />
             <div className="contact__info">
                 <h4 className="contact__h4">Get in touch with me:</h4>
