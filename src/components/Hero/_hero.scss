@@ -4,6 +4,7 @@
     grid-column: full-start / full-end;
     overflow: hidden;
     height: 100vh;
+    backdrop-filter: blur(30px);
 
 
     &__container {
@@ -73,7 +74,7 @@
         height:0;
         width:1px;
         border-top:1px solid #fff;
-        margin-top: 1.5rem;
+        margin-top: 2rem;
         -webkit-animation: increaseWidth 1s;
         -moz-animation:    increaseWidth 1s; 
         -o-animation:      increaseWidth 1s; 
@@ -110,78 +111,78 @@
 }
 
 
-// n is number of stars required
-@function multiple-box-shadow ($n) {
-  $value: '#{random(2000)}px #{random(2000)}px #FFF';
-  @for $i from 2 through $n {
-    $value: '#{$value} , #{random(2000)}px #{random(2000)}px #FFF';
-    }
-  @return unquote($value);
-}
+// // n is number of stars required
+// @function multiple-box-shadow ($n) {
+//   $value: '#{random(2000)}px #{random(2000)}px #FFF';
+//   @for $i from 2 through $n {
+//     $value: '#{$value} , #{random(2000)}px #{random(2000)}px #FFF';
+//     }
+//   @return unquote($value);
+// }
 
-$shadows-small:  multiple-box-shadow(700);
-$shadows-medium: multiple-box-shadow(200);
-$shadows-big:    multiple-box-shadow(100);
+// $shadows-small:  multiple-box-shadow(700);
+// $shadows-medium: multiple-box-shadow(200);
+// $shadows-big:    multiple-box-shadow(100);
 
-#stars {
-  width: 1px;
-  height: 1px;
-  background: transparent;
-  box-shadow: $shadows-small;
-  animation	: animateDots 50s linear infinite;
+// #stars {
+//   width: 1px;
+//   height: 1px;
+//   background: transparent;
+//   box-shadow: $shadows-small;
+//   animation	: animateDots 50s linear infinite;
     
-  &:after{
-    content: " ";
-    position: absolute;
-    top: 2000px;
-    width: 1px;
-    height: 1px;
-    background: transparent;
-    box-shadow: $shadows-small;
-  }
-}
+//   &:after{
+//     content: " ";
+//     position: absolute;
+//     top: 2000px;
+//     width: 1px;
+//     height: 1px;
+//     background: transparent;
+//     box-shadow: $shadows-small;
+//   }
+// }
 
-#stars2 {
-  width: 2px;
-  height: 2px;
-  background: transparent;
-  box-shadow: $shadows-medium;
-  animation: animateDots 100s linear infinite;
+// #stars2 {
+//   width: 2px;
+//   height: 2px;
+//   background: transparent;
+//   box-shadow: $shadows-medium;
+//   animation: animateDots 100s linear infinite;
     
-  &:after {
-    content: "";
-    position: absolute;
-    top: 2000px;
-    width: 2px;
-    height: 2px;
-    background: transparent;
-    box-shadow: $shadows-medium;
-    }
-}
+//   &:after {
+//     content: "";
+//     position: absolute;
+//     top: 2000px;
+//     width: 2px;
+//     height: 2px;
+//     background: transparent;
+//     box-shadow: $shadows-medium;
+//     }
+// }
 
-#stars3{
-  width: 3px;
-  height: 3px;
-  background: transparent;
-  box-shadow: $shadows-big;
-  animation: animateDots 150s linear infinite;
+// #stars3{
+//   width: 3px;
+//   height: 3px;
+//   background: transparent;
+//   box-shadow: $shadows-big;
+//   animation: animateDots 150s linear infinite;
     
-  &:after{
-    content: " ";
-    position: absolute;
-    top: 2000px;
-    width: 3px;
-    height: 3px;
-    background: transparent;
-    box-shadow: $shadows-big;
-    }
-}
+//   &:after{
+//     content: " ";
+//     position: absolute;
+//     top: 2000px;
+//     width: 3px;
+//     height: 3px;
+//     background: transparent;
+//     box-shadow: $shadows-big;
+//     }
+// }
 
-@keyframes animateDots {
-    from {
-        transform: translateY(-2000px);
-    }
-    to {
-        transform: translateY(0);
-    }
-}
+// @keyframes animateDots {
+//     from {
+//         transform: translateY(-2000px);
+//     }
+//     to {
+//         transform: translateY(0);
+//     }
+// }
